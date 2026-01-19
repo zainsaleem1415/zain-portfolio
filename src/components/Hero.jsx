@@ -93,7 +93,7 @@ const Hero = () => {
           >
             <div className="absolute top-0 w-full h-full bg-[#D1D1CD] rounded-t-[100px] rounded-b-[150px] lg:rounded-b-[200px] z-0 shadow-xl"></div>
             <div className="absolute top-0 w-full h-full flex items-end justify-center overflow-hidden rounded-b-[150px] lg:rounded-b-[200px] z-10">
-              <img src="/1.png" alt="Portrait" className="w-auto h-[110%] object-cover object-bottom" />
+              <img src="/hero.png" alt="Portrait" className="w-auto h-[110%] object-cover object-bottom" />
             </div>
           </motion.div>
 
@@ -215,7 +215,7 @@ const Hero = () => {
                 <div className="flex flex-col items-center mb-8">
                   <div className="relative w-24 h-24 rounded-full border-2 border-green-500/50 p-1 mb-4">
                     <div className="w-full h-full rounded-full overflow-hidden bg-[#222]">
-                      <img src="/1.png" alt="Zeeshan" className="w-full h-full object-cover object-top scale-125 translate-y-2" />
+                      <img src="/hero.png" alt="Zeeshan" className="w-full h-full object-cover object-top scale-125 translate-y-2" />
                     </div>
                     <div className="absolute bottom-0 right-0 w-6 h-6 bg-green-500 rounded-full border-4 border-[#111] flex items-center justify-center">
                       <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>

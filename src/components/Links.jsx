@@ -69,7 +69,7 @@ const Links = () => {
                     >
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full aspect-square bg-white/40 rounded-full blur-3xl -z-10"></div>
                         <img
-                            src="/1.png"
+                            src="/link.png"
                             alt="Zeeshan"
                             className="w-full max-w-md  rounded-full hover:grayscale-0 transition-all duration-700 pointer-events-none"
                         />

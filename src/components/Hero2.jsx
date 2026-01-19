@@ -154,7 +154,7 @@ const Hero2 = () => {
           {/* Glow Effect */}
           <div className="absolute inset-0 bg-gradient-to-t from-yellow-500/20 via-transparent to-transparent opacity-50 blur-3xl"></div>
           <motion.img
-            src="/1.png"
+            src="/hero.png"
             alt="Portrait"
             className="w-full h-auto object-contain max-h-[85vh] drop-shadow-2xl z-10"
             initial={{ opacity: 0, scale: 0.95, y: 50 }}
