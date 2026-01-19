@@ -4,7 +4,12 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { useState } from 'react';
 
 import { CONTACT_INFO, SOCIAL_LINKS } from '../constants/socials';
-import { personalInfo, stats as aboutStats, skills, experience, education } from '../constants/aboutData';
+import {
+  personalInfo,
+  stats as aboutStats,
+  skills,
+  experience,
+} from "../constants/aboutData";
 
 const Hero = () => {
   const [showAboutModal, setShowAboutModal] = useState(false);
@@ -64,7 +69,7 @@ const Hero = () => {
 
           {/* Left Column */}
           <motion.div className="md:col-span-4 space-y-4 lg:space-y-6" initial="hidden" animate="visible" variants={staggerContainer}>
-            <motion.h3 variants={fadeInUp} className="text-lg md:text-xl font-serif text-gray-600">Hey. I'm Zeeshan,</motion.h3>
+            <motion.h3 variants={fadeInUp} className="text-lg md:text-xl font-serif text-gray-600">Hey. I'm Zain,</motion.h3>
             <motion.div variants={fadeInUp} className="leading-none">
               <h1 className="font-['Oswald'] font-bold text-4xl lg:text-6xl xl:text-7xl text-[#1a1a1a]">A WEB<br />DEVELOPER</h1>
             </motion.div>
