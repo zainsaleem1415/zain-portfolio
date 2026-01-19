@@ -28,8 +28,8 @@ function Navigation({ activeSection, setActiveSection }) {
 
   const navVariants = {
     hidden: {
-      width: 40,
-      height: 40,
+      width: 50,
+      height: 50,
       borderRadius: 50,
       opacity: 0.4,
       scale: 0.8,
@@ -75,7 +75,7 @@ function Navigation({ activeSection, setActiveSection }) {
               transition={{ duration: 0.2 }}
               className="absolute inset-0 flex items-center justify-center"
             >
-              <Menu className="text-white" size={20} />
+              <Menu className="text-white" size={24} />
             </motion.div>
           )}
         </AnimatePresence>
